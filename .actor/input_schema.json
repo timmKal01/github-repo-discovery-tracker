@@ -1,0 +1,51 @@
+{
+    "title": "GitHub Repo Discovery Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across repo name and description (e.g. \"llm agent\", \"vector database\"). Leave blank to skip keyword filtering."
+        },
+        "language": {
+            "title": "Language",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Programming language to filter by, e.g. \"Python\", \"TypeScript\", \"Rust\". Leave blank for all languages."
+        },
+        "topic": {
+            "title": "Topic",
+            "type": "string",
+            "editor": "textfield",
+            "description": "GitHub topic tag to filter by, e.g. \"web-scraping\", \"llm-agent\". Leave blank for all topics."
+        },
+        "minStars": {
+            "title": "Minimum stars",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return repos with at least this many stars.",
+            "default": 0,
+            "minimum": 0
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by repo creation date.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 180
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of repos to return, most starred first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}

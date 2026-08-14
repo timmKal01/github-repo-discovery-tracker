@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of GitHub Repo Discovery Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Repositories",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

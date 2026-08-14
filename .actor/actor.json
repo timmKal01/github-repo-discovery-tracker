@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "github-repo-discovery-tracker",
+    "title": "GitHub Repo Discovery Tracker — New Repos by Topic/Language",
+    "description": "Find new GitHub repositories matching a keyword, language, or topic, created within a chosen time window and sorted by stars. For tech scouting, VC deal sourcing, and tracking what's emerging in an OSS ecosystem.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}
