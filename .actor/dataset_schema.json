@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "fullName",
+                    "description",
+                    "language",
+                    "stars",
+                    "forks",
+                    "openIssues",
+                    "topics",
+                    "license",
+                    "createdAt",
+                    "pushedAt",
+                    "url"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "fullName": {
+                        "label": "Full name",
+                        "format": "text"
+                    },
+                    "description": {
+                        "label": "Description",
+                        "format": "text"
+                    },
+                    "language": {
+                        "label": "Language",
+                        "format": "text"
+                    },
+                    "stars": {
+                        "label": "Stars",
+                        "format": "number"
+                    },
+                    "forks": {
+                        "label": "Forks",
+                        "format": "number"
+                    },
+                    "openIssues": {
+                        "label": "Open issues",
+                        "format": "number"
+                    },
+                    "topics": {
+                        "label": "Topics",
+                        "format": "array"
+                    },
+                    "license": {
+                        "label": "License",
+                        "format": "text"
+                    },
+                    "createdAt": {
+                        "label": "Created at",
+                        "format": "date"
+                    },
+                    "pushedAt": {
+                        "label": "Pushed at",
+                        "format": "date"
+                    },
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
