@@ -6,7 +6,7 @@ created within a chosen time window and sorted by stars.
 Built for tech scouting, VC deal sourcing, and developer relations teams
 tracking what's emerging in an OSS ecosystem — this is a discovery tool
 for repos you don't know about yet, not a watcher for repos you already
-depend on (see [GitHub Release Tracker](https://github.com/timmKal01/github-release-tracker)
+depend on (see [GitHub Release Tracker](https://apify.com/m_ctim/github-release-tracker)
 for that).
 
 ## Input
@@ -68,4 +68,4 @@ search returns 0 repos or 100.
 
 ## Related products
 
-- [GitHub Release Tracker](https://github.com/timmKal01/github-release-tracker) — watches specific repos you already know for new releases, rather than discovering new ones
+- [GitHub Release Tracker](https://apify.com/m_ctim/github-release-tracker): watches specific repos you already know for new releases, rather than discovering new ones
