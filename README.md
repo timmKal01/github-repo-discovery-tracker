@@ -36,6 +36,7 @@ One record per repo:
 
 ```json
 {
+  "rowType": "repo",
   "fullName": "D4Vinci/Scrapling",
   "description": "An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
   "url": "https://github.com/D4Vinci/Scrapling",

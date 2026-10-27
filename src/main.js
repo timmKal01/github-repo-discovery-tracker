@@ -23,7 +23,7 @@ const repos = await fetchRepos({
 });
 
 for (const repo of repos) {
-    await Actor.pushData(repo);
+    await Actor.pushData({ rowType: 'repo', ...repo });
 }
 
 await Actor.charge({ eventName: REPO_SEARCH_EVENT });
